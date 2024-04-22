@@ -4,6 +4,12 @@ version = "0.1.0"
 edition = "2021"
 description = "Generate tailwind output as a literal string at compile time."
 license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/tailwindcss-native-rust-macro"
+authors = ["Lucille L. Blumire <lucy@llblumire.co.uk>"]
+keywords = ["macros", "tailwind", "tailwindcss"]
+repository = "https://github.com/llblumire/tailwindcss-native-rust-macro"
+rust-version = "1.77.2"
+categories = ["web-programming", "development-tools:build-utils"]
 
 [lib]
 proc-macro = true
